@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 html {
     font-size: 16px;
 }
@@ -43,12 +42,10 @@ body {
 }
 
 h1 {
-    font-family: var(--young);
-    color: var(--stone-900);
+    font-family: "young serif",serif;
 }
 
-ol,
-ul {
+ol,ul {
     list-style-position: inside;
     display: flex;
     flex-direction: column;
@@ -109,21 +106,7 @@ ul {
     padding-bottom: 20px;
 }
 
-@media  screen and (max-width: 375px) {
-    body {
-        background-color: red;
-    }
-    
-}
-.nutrition td {
-    width: 50%;
-      /* border: 1px solid black; */
-    padding: 10px;
-     
-    
-    
-    
-}
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -139,4 +122,23 @@ table {
 }
  .nutrition tr {
    border-bottom: 1px solid brown;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        padding: 0;
+
+    }
+    .card {
+        width: 100%;
+        border-radius: 0;
+        padding: 0;
+
+    }
+    .picture {
+        border-radius: 0%;
+    }
+    .section, .main {
+        margin: 30px;
+    }
 }
