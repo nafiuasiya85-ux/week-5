@@ -42,10 +42,11 @@ body {
 }
 
 h1 {
-    font-family: "young serif",serif;
+    font-family: var(--young);
+    color: var(--stone-900);
 }
-
-ol,ul {
+    
+ol ul {
     list-style-position: inside;
     display: flex;
     flex-direction: column;
@@ -61,7 +62,7 @@ ol,ul {
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
 }
 
 .picture {
@@ -82,7 +83,7 @@ ol,ul {
 }
 
 .main p {
-    line-height: 1.5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .main div {
